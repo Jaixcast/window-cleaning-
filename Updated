@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crystal Clear Window Cleaning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/hero-window.jpg" alt="Shiny windows" class="hero-image" />
+    <div class="overlay-text">
+      <h1>Crystal Clear Window Cleaning</h1>
+      <p>Shining homes & businesses with care</p>
+      <a href="#schedule" class="btn">Schedule Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>What We’re About</h2>
+      <p>We deliver streak-free, professional window cleaning to homes and businesses. Our team is friendly, punctual, and always leaves your glass gleaming.</p>
+    </section>
+
+    <section id="services">
+      <h2>What We Offer</h2>
+      <ul>
+        <li>✔ Residential Window Cleaning</li>
+        <li>✔ Commercial Window Cleaning</li>
+        <li>✔ Screen & Track Cleaning</li>
+        <li>✔ Hard Water Stain Removal</li>
+        <li>✔ Monthly Maintenance Plans</li>
+      </ul>
+    </section>
+
+    <section id="schedule">
+      <h2>Easy Scheduling</h2>
+      <p>Fill out the form below and we’ll get back to you within 24 hours.</p>
+
+      <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">What can we help you with?</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Request</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:info@crystalclear.com">info@crystalclear.com</a></p>
+      <p>Phone: (555) 123-4567</p>
+      <p>Location: 123 Clean St, Clearview, USA</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Follow us:</p>
+    <a href="#">Instagram</a> |
+    <a href="#">Facebook</a> |
+    <a href="#">Yelp</a>
+    <p>&copy; 2025 Crystal Clear Window Cleaning</p>
+  </footer>
+</body>
+</html>
